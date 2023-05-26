@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+input {
+  outline:none;
+}
+
+b {
+  color: red;
+}
+
+.display-none {
+  display: none !important;
+}
+
+.visibility-hidden {
+  margin: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.str-url {
+  color: black;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.blockSendMes
+{
+  &__title {
+    margin-top: 30px;
+  }
+  &__button {
+    margin-top: 15px;
+  }
+}
+
+.logupBlock {
+  background-color: white !important;
+}
+
+.form-messages {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-button {
+  margin-top: 15px;
+  display: flex;
+  max-width: 150px;
+  justify-content: center;
+}
+
+.more-messages {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.block-cabinet {
+  padding: 15px;
+}
+
+.button {
+  margin-top: 15px;
+}
+
+.form-block {
+  display: flex;
+  flex-direction: column;
+}
