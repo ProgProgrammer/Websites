@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.aside {
+    color: red;
+    &__blue {
+        color: blue;
+    }
+}
+
+.form-button {
+    margin-top: 15px;
+}
